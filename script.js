@@ -64,7 +64,7 @@ function handleClick(e) {
         setTimeout(() => {
             updateStatus(); // Display the winning message
             gameActive = false;
-            setTimeout(restartGame, 3000); // Auto-restart after 3 seconds
+            setTimeout(restartGame, 2200); // Auto-restart after 2.2 seconds
         }, 10);
     } else {
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
@@ -93,7 +93,7 @@ function singlePlayerMove() {
         setTimeout(() => {
             updateStatus(); // Display the winning message
             gameActive = false;
-            setTimeout(restartGame, 3000); // Auto-restart after 3 seconds
+            setTimeout(restartGame, 2200); // Auto-restart after 2.2 seconds
         }, 10);
     } else {
         currentPlayer = 'X';
