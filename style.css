@@ -78,7 +78,6 @@ button {
     cursor: pointer;
     color: #fff;
     margin-top: 15px;
-    background-color: #4b79a1;
     transition: background-color 0.3s ease;
 }
 
