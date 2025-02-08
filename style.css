@@ -83,7 +83,6 @@ button {
 }
 
 button:hover {
-    background-color: #3c6890;
-
+    opacity: 0.8;
 }
 
