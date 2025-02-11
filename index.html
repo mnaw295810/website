@@ -23,7 +23,7 @@
         .container {
             text-align: center;
             width: 80dvw;
-            max-height: 80dvh;
+            max-height: 95dvh;
             padding: 20px;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -33,12 +33,12 @@
         }
 
         h1 {
-            font-size: 3em;
+            font-size: 2.5em;
             margin: 0;
         }
 
         .heart {
-            font-size: 4em;
+            font-size: 3.5em;
             color: #ff6b6b;
             animation: heartbeat 1.5s infinite;
         }
@@ -55,6 +55,8 @@
             opacity: 0;
             animation: fadeInUp 2s ease-in-out forwards;
             animation-delay: 1s;
+            overflow: scroll;
+            height: 250px;
         }
 
         @keyframes fadeInUp {
@@ -137,7 +139,7 @@
 <body>
     <div class="container">
         <h1>Happy Valentine's Day!</h1>
-        <div class="heart">❤️</div>❤️
+        <div class="heart">❤️</div>
         <div class="message">
             <p>To my dearest Bawm Myaw,</p>
             <p>You are the most amazing person in my life.</p>
@@ -147,10 +149,6 @@
             <p>Forever yours,</p>
             <p>Shin Thant Aung</p>
         </div>
-        <button class="button">Click for a Surprise!</button>
     </div>
-    <footer>
-        Made with ❤️ by Sut Reng Zaw Seng
-    </footer>
 </body>
 </html>
