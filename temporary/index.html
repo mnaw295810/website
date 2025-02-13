@@ -34,20 +34,9 @@
         }
 
         h1 {
-            font-size: 2.05em;
+            font-size: 2.15em;
             margin: 0;
             font-weight: bold;
-        }
-
-        .heart {
-            font-size: 3.5em;
-            color: #ff6b6b;
-            animation: heartbeat 1.5s infinite;
-        }
-
-        @keyframes heartbeat {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.2); }
         }
 
         .message {
@@ -58,7 +47,7 @@
             animation: fadeInUp 3s ease-in-out forwards;
             animation-delay: 1s;
             overflow: scroll;
-            height: 250px;
+            height: 300px;
         }
 
         @keyframes fadeInUp {
@@ -69,7 +58,7 @@
         .message p {
             margin: 10px 0;
             opacity: 0;
-            animation: slideIn 1s ease-in-out forwards;
+            animation: slideIn 1.5s ease-in-out forwards;
         }
 
         .message p:nth-child(1) { animation-delay: 1.5s; }
@@ -82,24 +71,6 @@
         @keyframes slideIn {
             0% { opacity: 0; transform: translateX(-20px); }
             100% { opacity: 1; transform: translateX(0); }
-        }
-
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1em;
-            color: #fff;
-            background: #ff6b6b;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: background 0.3s ease, transform 0.3s ease;
-        }
-
-        .button:hover {
-            background: #ff4757;
-            transform: scale(1.1);
         }
 
         .floating-hearts {
