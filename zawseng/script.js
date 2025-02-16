@@ -48,6 +48,11 @@ const questionsByCategory = {
         question: "What is a synonym for 'happy'?",
         options: ["A. Sad", "B. Joyful", "C. Angry", "D. Tired"],
         correctAnswer: "B"
+      },
+      {
+        question: "Void ratio is defined as the ratio of volume of void to the ___ of solids.",
+        options: ["A. volume ", "B. weight ", "C. density", "D. porosity"],
+        correctAnswer: "A"
       }
     ]
   };
